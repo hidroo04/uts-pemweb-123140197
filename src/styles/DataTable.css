@@ -1,0 +1,27 @@
+.data-table {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .data-table {
+    grid-template-columns: 1fr;
+  }
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 16px;
+  grid-column: 1 / -1;
+}
+
+.empty-state-icon {
+  margin: 0 auto 16px;
+  color: #4b5563;
+}
+
+.empty-state-text {
+  color: #9ca3af;
+  font-size: 18px;
+}

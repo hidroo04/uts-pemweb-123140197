@@ -1,0 +1,111 @@
+.detail-card {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 16px;
+  transition: background 0.3s;
+  position: relative;
+}
+
+.detail-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.card-content {
+  display: flex;
+  gap: 16px;
+}
+
+.artwork-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.card-artwork {
+  width: 96px;
+  height: 96px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  border: none;
+}
+
+.detail-card:hover .play-overlay {
+  opacity: 1;
+}
+
+.play-overlay svg {
+  color: white;
+}
+
+.card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-title {
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+.card-artist {
+  font-size: 14px;
+  color: #9ca3af;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  background: rgba(168, 85, 247, 0.2);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-button:hover {
+  background: rgba(168, 85, 247, 0.3);
+}
