@@ -1,8 +1,9 @@
+Nama: Muhammad Rafiq Ridho
+
+NIM : 123140197
+
+---
 # 🎵 MusikKu - Music Explorer
-
-**Nama: Muhammad Rafiq Ridho**
-
-**NIM : 123140197**
 
 **MusikKu** adalah Sebuah output UTS berupa aplikasi web music explorer yang memungkinkan pengguna untuk mencari, memutar preview, dan mengelola playlist musik menggunakan iTunes Search API.
 
@@ -62,3 +63,16 @@ npm run dev
 
 Aplikasi akan berjalan di: **http://localhost:5173**
 
+## 📌Screenshot Aplikasi
+Screenshot halaman utama
+<img width="2879" height="1535" alt="beranda" src="https://github.com/user-attachments/assets/c5d8dff0-13fe-4fec-a245-8d9459023ded" />
+
+---
+Screenshot Halaman Search
+<img width="2879" height="1535" alt="search" src="https://github.com/user-attachments/assets/2c636dcb-4cd3-4f64-926b-286efeb37a27" />
+
+---
+Screenshot Halaman Playlist
+<img width="2844" height="1538" alt="playlist" src="https://github.com/user-attachments/assets/b960ae0b-6f69-419d-9ee2-764ff770afa9" />
+
+---
