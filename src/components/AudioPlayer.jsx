@@ -31,7 +31,6 @@ const AudioPlayer = ({
 
   return (
     <div className="audio-player">
-      {/* Progress Bar at Top */}
       <div 
         className="progress-bar-wrapper"
         onClick={handleProgressClick}
@@ -43,7 +42,6 @@ const AudioPlayer = ({
       </div>
 
       <div className="player-container">
-        {/* Track Info - Left */}
         <div className="track-info">
           <img
             src={currentTrack.artworkUrl100}
@@ -55,8 +53,6 @@ const AudioPlayer = ({
             <p className="artist-name">{currentTrack.artistName}</p>
           </div>
         </div>
-
-        {/* Playback Controls - Center */}
         <div className="center-controls">
           <div className="playback-controls">
             <button 
