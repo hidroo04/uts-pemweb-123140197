@@ -1,16 +1,64 @@
-# React + Vite
+# 🎵 MusikKu - Music Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nama: Muhammad Rafiq Ridho**
 
-Currently, two official plugins are available:
+**NIM : 123140197**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**MusikKu** adalah Sebuah output UTS berupa aplikasi web music explorer yang memungkinkan pengguna untuk mencari, memutar preview, dan mengelola playlist musik menggunakan iTunes Search API.
 
-## React Compiler
+### 📝 Playlist Management
+- **Create Playlist** - Tambah lagu favorit ke playlist
+- **Persistent Storage** - Playlist tersimpan di localStorage
+- **Track Management** - Play, remove, atau clear playlist
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sebelum memulai, pastikan Anda sudah menginstall:
+
+- **Node.js** (v18.0.0 atau lebih baru)
+- **Git**
+- **Code editor**
+  
+### Cek Versi Node.js
+```bash
+node --version
+npm --version
+```
+
+Jika belum terinstall, download dari: https://nodejs.org/
+
+---
+
+## 🚀 Installation
+
+### 1. Clone Project
+
+**Clone repository dari github**
+
+
+Buka CMD atau terminal lainnya dan masuk ke folder yang di inginkan untuk menyimpan proyek
+```bash
+git clone https://github.com/hidroo04/uts-pemweb-123140197.git
+```
+
+### 2. Masuk ke Folder Proyek
+```bash
+cd uts-pemweb-123140197
+```
+
+### 3. Install Dependencies
+```bash
+npm install react
+npm install react-dom
+npm install lucide-react
+```
+
+### 4. Jalankan Proyek
+```bash
+npm run dev
+```
+
+Aplikasi akan berjalan di: **http://localhost:5173**
+
