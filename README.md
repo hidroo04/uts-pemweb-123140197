@@ -1,20 +1,15 @@
 # 🎵 MusikKu - Music Explorer
 
+**Nama: Muhammad Rafiq Ridho**
+
+**NIM : 123140197**
+
 **MusikKu** adalah Sebuah output UTS berupa aplikasi web music explorer yang memungkinkan pengguna untuk mencari, memutar preview, dan mengelola playlist musik menggunakan iTunes Search API.
 
 ### 📝 Playlist Management
 - **Create Playlist** - Tambah lagu favorit ke playlist
 - **Persistent Storage** - Playlist tersimpan di localStorage
 - **Track Management** - Play, remove, atau clear playlist
-
-## 🛠️ Tech Stack
-
-- **Framework:** React 18.3.1 + Vite 6.0.5
-- **Styling:** Pure CSS
-- **Icons:** Lucide React 0.263.1
-- **API:** iTunes Search API
-- **Storage:** LocalStorage
-- **State Management:** React Hooks (useState, useEffect, useRef)
 
 ---
 
