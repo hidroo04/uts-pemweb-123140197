@@ -38,9 +38,11 @@ Jika belum terinstall, download dari: https://nodejs.org/
 
 ## 🚀 Installation
 
-### 1. Clone atau Download Project
+### 1. Clone Project
 
 **Clone repository dari github**
+
+
 Buka CMD atau terminal lainnya dan masuk ke folder yang di inginkan untuk menyimpan proyek
 ```bash
 git clone https://github.com/hidroo04/uts-pemweb-123140197.git
